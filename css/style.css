@@ -1,0 +1,987 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@media (max-width: 1300px) {
+  main .background {
+    background: url("../img/photo_5280947219018671384_y.jpg") !important;
+    max-width: 704px !important;
+  }
+  main .background .backround__container {
+    max-width: 624px !important;
+  }
+  main .background .backround__container .background__container--box {
+    margin-top: 671px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--footer {
+    width: 624px;
+  }
+  main .prices .prices__container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 704px !important;
+  }
+  main .prices .prices__container .prices__container--border {
+    display: none;
+  }
+  main .prices .prices__container .prices__container--box1 {
+    grid-area: 1/1/2/2;
+  }
+  main .prices .prices__container .prices__container--box2 {
+    grid-area: 1/2/2/3;
+  }
+  main .prices .prices__container .prices__container--box3 {
+    grid-area: 2/1/3/2;
+    padding-top: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .background__container--scroll {
+    max-width: 299px !important;
+  }
+  .background__container--scroll .scroll-button {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    border: none !important;
+    background-color: rgba(28, 28, 28, 0) !important;
+    padding: 0 !important;
+  }
+  header {
+    max-width: 335px !important;
+    margin: 0 auto;
+  }
+  main .background {
+    background: url("../img/photo_5280947219018671352_x.jpg") !important;
+    max-width: 335px !important;
+  }
+  main .background .backround__container {
+    max-width: 295px !important;
+  }
+  main .background .backround__container .background__container--box {
+    margin-top: 650px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--text {
+    display: none;
+  }
+  main .background .backround__container .background__container--box .background__container--box--text1 {
+    display: block !important;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+    max-width: 299px;
+  }
+  main .background .backround__container .modal1 {
+    max-width: 311px !important;
+  }
+  main .background .backround__container .modal1 .modal1__titles {
+    max-width: 102px !important;
+    margin-left: 104px !important;
+  }
+  main .background .backround__container .modal1 .modal1__titles .modal1__titles--title1 {
+    font-size: 17px !important;
+    line-height: 24px !important;
+    letter-spacing: -3% !important;
+  }
+  main .background .backround__container .modal1 .modal1__titles .modal1__titles--title2 {
+    font-size: 17px !important;
+    line-height: 24px !important;
+    letter-spacing: -3% !important;
+  }
+  main .background .backround__container .modal1 .modal1__cards {
+    max-width: 231px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  main .background .backround__container .modal1 .modal1__cards .modal1__cards--svg {
+    display: block !important;
+    margin: 0 auto;
+    margin-top: 14px;
+  }
+  main .background .backround__container .modal1 .modal1__container--form1 {
+    max-width: 263px !important;
+    margin: 0 auto !important;
+    margin-top: 32px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form1 .modal1__container--form1--text1 {
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form1 .modal1__container--names {
+    flex-direction: column;
+  }
+  main .background .backround__container .modal1 .modal1__container--form1 .modal1__container--names .modal1__container--names--form1 {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: 18px !important;
+    padding-right: 77px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 17.07px !important;
+    letter-spacing: -0.02em !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form1 .modal1__container--names .modal1__container--names--form2 {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: 18px !important;
+    padding-right: 77px !important;
+    margin-top: 14px;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 17.07px !important;
+    letter-spacing: -0.02em !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form2 {
+    max-width: 263px !important;
+    margin: 0 auto !important;
+    margin-top: 18px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form2 .modal1__container--form2--text2 {
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form2 .modal1__container--form2--form2 {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: 18px !important;
+    padding-right: 77px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 17.07px !important;
+    letter-spacing: -0.02em !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form3 {
+    max-width: 263px !important;
+    margin: 0 auto !important;
+    margin-top: 18px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form3 .modal1__container--form3--text3 {
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form3 .modal1__container--form3--input {
+    padding-top: 10.5px !important;
+    padding-bottom: 10.5px !important;
+    padding-left: 18px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--svg {
+    width: 24px;
+  }
+  main .background .backround__container .modal1 .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--span {
+    font-size: 14px !important;
+    line-height: 17.07px !important;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--form3 {
+    width: 128px !important;
+    font-size: 14px !important;
+    line-height: 17.07px !important;
+    padding-left: 14px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form4 {
+    max-width: 263px !important;
+    margin: 0 auto !important;
+    margin-top: 18px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form4 .modal1__container--form4--text4 {
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form4 .modal1__container--form4--input {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: 18px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--form4 {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 17.07px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--svg {
+    padding-left: 30px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form5 {
+    max-width: 263px !important;
+    margin: 0 auto !important;
+    margin-top: 18px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form5 .modal1__container--form5--text5 {
+    font-size: 12px !important;
+    line-height: 14px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--form5 .modal1__container--form5--input--form5 {
+    padding-top: 14px !important;
+    padding-left: 18px !important;
+    padding-bottom: 60px !important;
+    padding-right: 76px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 17.07px !important;
+  }
+  main .background .backround__container .modal1 .modal1__container--button {
+    margin-left: 24px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+    margin-bottom: 32px !important;
+  }
+  main .background .backround__container .modal222 {
+    max-width: 311px !important;
+  }
+  main .background .backround__container .modal222 .modal222__svg {
+    margin-top: 14px;
+    margin-left: 269px;
+    width: 28px;
+    height: 28px;
+  }
+  main .background .backround__container .modal222 .modal222__img {
+    width: 150px;
+    top: 182px;
+  }
+  main .background .backround__container .modal222 .modal222__texts {
+    max-width: 219px;
+    margin-top: 90px;
+    margin-left: 68px;
+    padding-bottom: 160px;
+  }
+  main .background .backround__container .modal222 .modal222__texts .modal222__texts--title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  main .background .backround__container .modal222 .modal222__texts .modal222__texts--text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  main .background .backround__container .background__container--box {
+    margin-top: 395px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--footer {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--text {
+    font-size: 20px !important;
+    line-height: 24px !important;
+    max-width: 299px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--footer--buttons {
+    max-width: 295px !important;
+    padding-bottom: 32px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--footer--buttons .background__container--box--footer--buttons--button1 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--footer--buttons .background__container--box--footer--buttons--button2 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+  main .prices .prices__container {
+    display: flex !important;
+    flex-direction: column;
+    max-width: 336px !important;
+  }
+  main .prices .prices__container .prices__container--box2 {
+    padding-top: 20px;
+  }
+  main .prices .prices__container .prices__container--box3 {
+    padding-top: 20px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  background-color: white;
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+.logo .logo__img {
+  width: 50px;
+}
+
+.nav-links {
+  max-width: 400px;
+}
+.nav-links ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-links ul li {
+  margin: 0 35px;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.nav-links ul li a:hover {
+  color: #FD9222;
+  background-size: 100% 2px;
+  padding: 8px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+.social-icons a img:hover {
+  color: #FD9222;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.burger-menu span {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.nav-menu {
+  position: fixed;
+  height: 100%;
+  width: 0;
+  top: 0;
+  right: 0;
+  background-color: #1E1823;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-menu ul li {
+  margin: 20px 0;
+}
+.nav-menu ul li a {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.nav-menu ul li a:hover {
+  color: #FD9222;
+}
+.nav-menu .close-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.nav-menu .close-menu span {
+  font-size: 36px;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 704px !important;
+  }
+  .nav-links {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+}
+main .background {
+  background: url("../img/photo_2024-11-04_21-20-15.jpg"), no-repeat;
+  max-width: 1136px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+main .background .backround__container {
+  width: 100%;
+  max-width: 1056px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+main .background .backround__container .background__container--box {
+  margin-top: 381px;
+}
+main .background .backround__container .background__container--box .background__container--box--text {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+  max-width: 484px;
+}
+main .background .backround__container .background__container--box .background__container--box--text1 {
+  display: none;
+}
+main .background .backround__container .modal1 {
+  background-color: white;
+  max-width: 609px;
+  width: 100%;
+  border-radius: 15px;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  z-index: 1;
+  display: none;
+}
+main .background .backround__container .modal1 .modal1__container {
+  max-width: 513px;
+  margin: 0 auto;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 {
+  margin-top: 40px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 .modal1__container--names {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 .modal1__container--names .modal1__container--names--form1 {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 24px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  border-radius: 13px;
+  font-family: Montserrat;
+  color: rgba(64, 64, 64, 0.3019607843);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 .modal1__container--names .modal1__container--names--form2 {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 24px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  border-radius: 13px;
+  font-family: Montserrat;
+  color: rgba(64, 64, 64, 0.3019607843);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 .modal1__container--form1--text1 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form2 {
+  margin-top: 18px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form2 .modal1__container--form2--text2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form2 .modal1__container--form2--form2 {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 24px;
+  padding-right: 273px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  border-radius: 13px;
+  font-family: Montserrat;
+  color: rgba(64, 64, 64, 0.3019607843);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 8px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 {
+  margin-top: 18px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  align-items: center;
+  max-width: 513px;
+  background-color: white;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  border-radius: 13px;
+  padding-left: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--form3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(64, 64, 64, 0.3019607843);
+  border: none;
+  border-left: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  outline: none;
+  padding-left: 25px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--span {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+  padding-left: 18px;
+  padding-right: 32px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--text3 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 {
+  margin-top: 18px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--text4 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 513px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  background-color: white;
+  padding-left: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 13px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--form4 {
+  outline: none;
+  border: none;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(64, 64, 64, 0.3019607843);
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--svg {
+  padding-left: 215px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form5 {
+  margin-top: 18px;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form5 .modal1__container--form5--text5 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .modal1 .modal1__container .modal1__container--form5 .modal1__container--form5--input--form5 {
+  margin-top: 8px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  padding-left: 24px;
+  padding-top: 22px;
+  padding-bottom: 93px;
+  padding-right: 272px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(64, 64, 64, 0.3019607843);
+  border-radius: 13px;
+}
+main .background .backround__container .modal1__titles {
+  display: flex;
+  justify-content: space-between;
+  max-width: 148px;
+  margin-top: 48px;
+  margin-left: 243px;
+}
+main .background .backround__container .modal1__titles .modal1__titles--title1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #FD9222;
+}
+main .background .backround__container .modal1__titles .modal1__titles--title2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #1E1823;
+}
+main .background .backround__container .modal1__container--button {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #FD9222;
+  border: none;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: left;
+  color: white;
+  margin-top: 18px;
+  margin-bottom: 48px;
+  transition-duration: 1s;
+}
+main .background .backround__container .modal1__container--button:hover {
+  transform: scale(1.1);
+}
+main .background .modal222 {
+  background-color: #FD9222;
+  max-width: 516px;
+  width: 100%;
+  border-radius: 15px;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: none;
+}
+main .background .modal222 .modal222__img {
+  position: absolute;
+  top: 117px;
+  border-radius: 15px;
+  width: 225px;
+}
+main .background .modal222 .modal222__svg {
+  margin-left: 460px;
+  margin-top: 32px;
+}
+main .background .modal222 .modal222__texts {
+  max-width: 309px;
+  width: 100%;
+  margin-top: 90px;
+  margin-left: 163px;
+  padding-bottom: 134px;
+}
+main .background .modal222 .modal222__texts .modal222__texts--title {
+  color: #FCF1E0;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+main .background .modal222 .modal222__texts .modal222__texts--text {
+  color: #FCF1E0;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-top: 8px;
+}
+main .background .close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 31px;
+  margin-top: 20px;
+}
+main .background .close:hover,
+main .background .close:focus {
+  color: #FD9222;
+  text-decoration: none;
+  cursor: pointer;
+}
+main .background .background__container--box--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1056px;
+}
+main .background .background__container--box--footer .background__container--box--footer--buttons {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 270px;
+  padding-bottom: 40px;
+}
+main .background .background__container--box--footer .background__container--box--footer--buttons .background__container--box--footer--buttons--button1 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: left;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #FD9222;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  transition-duration: 1s;
+}
+main .background .background__container--box--footer .background__container--box--footer--buttons .background__container--box--footer--buttons--button1:hover {
+  color: #FD9222;
+  background-color: #FCF1E0;
+  transform: scale(1.1);
+}
+main .background .background__container--box--footer .background__container--box--footer--buttons .background__container--box--footer--buttons--button2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: left;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba(28, 28, 28, 0);
+  border: 1px solid white;
+  border-radius: 100px;
+  color: white;
+  transition-duration: 1s;
+}
+main .background .background__container--box--footer .background__container--box--footer--buttons .background__container--box--footer--buttons--button2:hover {
+  background-color: white;
+  border-color: #FD9222;
+  color: #FD9222;
+  transform: scale(1.1);
+}
+main .background .background__container--scroll {
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 150px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+main .background .background__container--scroll .scroll-button {
+  background-color: #FD9222;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  transition-duration: 1s;
+}
+main .background .background__container--scroll .scroll-button::after {
+  content: "▼";
+  margin-left: 10px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+main .background .background__container--scroll .scroll-button:hover {
+  background-color: white;
+  color: orange;
+  border: 1px solid #FD9222;
+  transform: scale(1.1);
+}
+main .background .background__container--scroll .scroll-button:hover::after {
+  transform: rotate(180deg);
+}
+
+.prices {
+  width: 100%;
+  background-color: #1E1823;
+  margin-top: 72px;
+}
+.prices .prices__container {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.prices .prices__container .prices__container--border {
+  border: 1px solid rgba(255, 255, 255, 0.5019607843);
+  height: 124px;
+  margin-top: 60px;
+}
+.prices .prices__container .prices__container--box1 {
+  max-width: 326px;
+}
+.prices .prices__container .prices__container--box1 .prices__container--box1--title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+.prices .prices__container .prices__container--box1 .prices__container--box1--text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6980392157);
+  width: 308px;
+}
+.prices .prices__container .prices__container--box2 {
+  max-width: 326px;
+}
+.prices .prices__container .prices__container--box2 .prices__container--box2--title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+.prices .prices__container .prices__container--box2 .prices__container--box2--text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6980392157);
+  width: 308px;
+}
+.prices .prices__container .prices__container--box3 {
+  max-width: 326px;
+}
+.prices .prices__container .prices__container--box3 .prices__container--box3--title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+.prices .prices__container .prices__container--box3 .prices__container--box3--text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6980392157);
+  width: 308px;
+}
