@@ -1160,6 +1160,7 @@ main .background .background__container--scroll .scroll-button:hover::after {
 .footer__logo {
   width: 50px;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 .footer__description {
   margin-top: 15px;
