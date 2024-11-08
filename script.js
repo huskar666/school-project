@@ -76,4 +76,75 @@ document.addEventListener('DOMContentLoaded', (event) => {
         document.getElementById('close-menu').addEventListener('click', function () {
             document.getElementById('nav-menu').style.width = '0';
         });
-        
+
+let cart = [];
+
+
+document.querySelectorAll('.card').forEach(card => {
+  card.addEventListener('click', () => {
+    const productName = card.getAttribute('data-name');
+    const productPrice = card.getAttribute('data-price');
+    cart.push({ name: productName, price: productPrice });
+    updateCartCount();
+  });
+});
+
+function updateCartCount() {
+  document.getElementById('cartCount').textContent = cart.length;
+}
+
+
+function toggleCart() {
+  const cartElement = document.getElementById('cart');
+  cartElement.style.display = cartElement.style.display === 'none' ? 'block' : 'none';
+
+
+  const cartItems = document.getElementById('cartItems');
+  cartItems.innerHTML = '';
+  cart.forEach(item => {
+    const li = document.createElement('li');
+    li.textContent = `${item.name} - ${item.price} грн`;
+    cartItems.appendChild(li);
+  });
+}
+
+
+function purchase() {
+  if (cart.length === 0) {
+    alert('Корзина порожня');
+  } else {
+    alert('Покупка здійснена!');
+    cart = [];
+    updateCartCount();
+    toggleCart();
+  }
+}
+
+
+function sortCards() {
+  const cardGrid = document.getElementById('cardGrid');
+  const sortOption = document.getElementById('sortPrice').value;
+  const cards = Array.from(cardGrid.getElementsByClassName('card'));
+
+  cards.sort((a, b) => {
+    const priceA = parseInt(a.getAttribute('data-price'));
+    const priceB = parseInt(b.getAttribute('data-price'));
+    return sortOption === 'lowToHigh' ? priceA - priceB : priceB - priceA;
+  });
+
+  cards.forEach(card => cardGrid.appendChild(card));
+}
+
+
+function filterByPrice() {
+  const priceRange = document.getElementById('priceRange').value;
+  const priceLabel = document.getElementById('priceLabel');
+  const cards = document.querySelectorAll('.card');
+
+  priceLabel.textContent = `${priceRange} грн`;
+
+  cards.forEach(card => {
+    const cardPrice = parseInt(card.getAttribute('data-price'));
+    card.style.display = cardPrice <= priceRange ? 'block' : 'none';
+  });
+}

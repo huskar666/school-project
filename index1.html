@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img class="logo__img" src="./img/image0_0.jpg" alt="logo"></a>
+            </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index1.html">Shop</a></li>
+                    <li><a href="index2.html">About us</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="#"><img src="./img/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="./img/twitter.svg" alt="Twitter"></a>
+            </div>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <nav id="nav-menu" class="nav-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        <div class="close-menu" id="close-menu">
+            <span>&times;</span>
+        </div>
+    </nav>
+
+
+<main>
+    <div class="shop-wrapper">
+      
+        <div class="cart" id="cart">
+          <h2>Корзина</h2>
+          <ul id="cartItems"></ul>
+          <button onclick="purchase()">Купити</button>
+        </div>
+      
+        <div class="filter-bar">
+          <div>
+            <label>Сортування:</label>
+            <select class="sort-price" id="sortPrice" onchange="sortCards()">
+              <option value="lowToHigh">Спочатку дешевші</option>
+              <option value="highToLow">Спочатку дорожчі</option>
+            </select>
+          </div>
+          
+          <div class="toggle__icon">
+                <label>Ціна:</label>
+                <input class="toggle__icon--input" type="range" id="priceRange" min="0" max="8000" step="100" value="8000" oninput="filterByPrice()">
+            <span class="price-label" id="priceLabel">8000 грн</span>
+            <div class="cart-icon" onclick="toggleCart()">
+                🛒 <span id="cartCount">0</span>
+              </div>
+          </div>
+        </div>
+      
+        <div class="card-grid" id="cardGrid">
+          <div class="card" data-price="1500" data-name="Клавіатура">
+            <img class="card-img" src="./img/a.jpg" alt="Продукт 1">
+            <h3>Клавіатура</h3>
+            <p>Ціна: 1500 грн</p>
+          </div>
+          <div class="card" data-price="2000" data-name="Навушники">
+            <img src="./img/j.jpg" alt="Продукт 2">
+            <h3>Навушники</h3>
+            <p>Ціна: 2000 грн</p>  
+          </div>
+          <div class="card" data-price="1250" data-name="Мишка">
+            <img src="./img/9fe072f2-78ac-40f9-b50e-eda2fcfd615e.png" alt="Продукт 3">
+            <h3>Мишка</h3>
+            <p>Ціна: 1250 грн</p>
+          </div>
+          <div class="card" data-price="2750" data-name="Навушники">
+            <img src="./img/q.jpg" alt="Продукт 4">
+            <h3>Навушники</h3>
+            <p>Ціна: 2750 грн</p>
+          </div>
+          <div class="card" data-price="900" data-name="Мишка">
+            <img src="./img/5cf0653f-d8a9-4714-a724-8dc6214a142c.png" alt="Продукт 5">
+            <h3>Мишка</h3>
+            <p>Ціна: 900 грн</p>
+          </div>
+          <div class="card" data-price="1000" data-name="Навушники">
+            <img src="./img/р.png" alt="Продукт 6">
+            <h3>Навушники</h3>
+            <p>Ціна: 1000 грн</p>
+          </div>
+          <div class="card" data-price="3500" data-name="Клавіатура">
+            <img src="./img/b.jpg" alt="Продукт 7">
+            <h3>Клавіатура</h3>
+            <p>Ціна: 3500 грн</p>
+          </div>
+          <div class="card" data-price="3000" data-name="Мишка">
+            <img src="./img/1ee9a192-bb42-4bf6-87cd-07f8df49d30d.png" alt="Продукт 8">
+            <h3>Мишка</h3>
+            <p>Ціна: 3000 грн</p>
+          </div>
+          <div class="card" data-price="1500" data-name="Клавіатура">
+            <img src="./img/g.jpg" alt="Продукт 9">
+            <h3>Клавіатура</h3>
+            <p>Ціна: 1500 грн</p>
+          </div>
+          <div class="card" data-price="2000" data-name="Навушники">
+            <img src="./img/l.jpg" alt="Продукт 10">
+            <h3>Навушники</h3>
+            <p>Ціна: 2000 грн</p>
+          </div>
+          <div class="card" data-price="2500" data-name="Мишка">
+            <img src="./img/т.jpg" alt="Продукт 11">
+            <h3>Мишка</h3>
+            <p>Ціна: 2500 грн</p>
+          </div>
+          <div class="card" data-price="8000" data-name="Навушники">
+            <img src="./img/k.jpg" alt="Продукт 12">
+            <h3>Навушники</h3>
+            <p>Ціна: 8000 грн</p>
+          </div>
+        </div>
+      </div>
+      
+</main>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__section footer__about">
+            <img src="./img/image0_0.jpg" alt="Logo" class="footer__logo">
+            <p class="footer__description">
+                Ми спеціалізуємося на найкращій периферії для ПК, забезпечуючи комфорт та якість для ваших потреб.
+            </p>
+        </div>
+
+        <div class="footer__section footer__navigation">
+            <h3 class="footer__title">Навігація</h3>
+            <ul class="footer__list">
+                <li><a href="./index.html" class="footer__link">Головна</a></li>
+                <li><a href="./index1.html" class="footer__link">Магазин</a></li>
+                <li><a href="./index2.html" class="footer__link">Про нас</a></li>
+                <li><a href="./index2.html" class="footer__link">Контакти</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__section footer__contact">
+            <h3 class="footer__title">Контакти</h3>
+            <p class="footer__contact-item">Телефон: +380 (66) 363-71-73</p>
+            <p class="footer__contact-item">Email: Custom.shop@yourstore.com</p>
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>

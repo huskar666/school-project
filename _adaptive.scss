@@ -1,4 +1,4 @@
-@media (max-width: 1300px){
+@media (max-width: 1350px){
     main{
        
         .background{
@@ -15,7 +15,9 @@
                 }
               
             }
+            
         }
+        
         .prices{
             & .prices__container{
                 display: grid !important;
@@ -62,6 +64,7 @@
         .background{
             background: url('../img/photo_5280947219018671352_x.jpg') !important;
             max-width: 335px !important;
+            
             & .backround__container{
                 max-width: 295px !important;
 
@@ -339,3 +342,41 @@
         }
     }
 }
+@media (max-width: 610px){
+    .filter-bar {
+        display: flex;
+        flex-direction: column; 
+        gap: 15px;
+        align-items: stretch;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        .toggle__icon{
+            max-width: 528px;
+        }
+        label {
+            font-size: 14px; 
+            margin-bottom: 5px;
+            font-weight: normal; 
+        }
+
+        select,
+        input[type="range"] {
+            width: 100%; 
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 14px; 
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+
+        select {
+            margin-bottom: 10px; 
+        }
+
+        input[type="range"] {
+            margin-bottom: 10px; 
+        }
+    }
+}
+
