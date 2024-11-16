@@ -148,3 +148,19 @@ function filterByPrice() {
     card.style.display = cardPrice <= priceRange ? 'block' : 'none';
   });
 }
+function initMap() {
+  const mapOptions = {
+    center: { lat: 50.4501, lng: 30.5234 }, 
+    zoom: 10,
+  };
+  const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+}
+$(document).ready(function() {
+  $('.opendiv').click(function(){
+    $('.block2').toggle();
+    setTimeout(function(){
+    $('body,html').scrollTop($('.block2').offset().top);
+      console.log($('.block2').outerHeight()+$('.block2').offset().top);
+    });
+  });
+});
