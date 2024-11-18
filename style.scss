@@ -889,7 +889,6 @@ main{
         background-color: #1E1823;
         color: #FFFFFF;
         padding: 40px 0;
-        font-family: Arial, sans-serif;
         margin-top: 50px;
     
         &__container {
@@ -1017,18 +1016,137 @@ main{
             transform: translateY(-5px) scale(1.05);
         }
       }
-      
+      .cards{
+        @keyframes showUp {
+            0% {
+                transform: translateY(100);
+            }
+    
+            100% {
+                transform: translateY(0);
+            }
+        }
+    
+        width: 100%;
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 32px;
+        margin-bottom: 94px;
 
+    
+        & .cards__container{
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            border-radius: 15px;
+    
+            &:hover .cards__overlay{
+                animation: showUp 1500ms ease-in-out forwards;
+            }
+    
+            .cards__img--1{
+                position: relative;
+                background-image: url(../img/photo4.jpg);
+                background-repeat: no-repeat;
+                height: 294px;
+                overflow: hidden;
+                border-radius: 15px;
+                object-fit: cover;
 
+                & .cards__overlay{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    transform: translateY(100%);
+                    transition: transform 1500ms ease-in-out;
+                    background-color: #1E1823;
+    
+                    & .cards__overlay--text{
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0.03em;
+                        text-align: center;
+                        color: #ffffff;
+                        width: 250px;
+                        padding: 84px 24px;
+                    }
+                }
+            }
+    
+            .cards__img--2{
+                position: relative;
+                background-image: url(../img/photo2.jpg);
+                background-repeat: no-repeat;
+                height: 294px;
+                overflow: hidden;
+                border-radius: 15px;
 
+                & .cards__overlay{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    transform: translateY(100%);
+                    transition: transform 1500ms ease-in-out;
+                    background-color: #1E1823;
+    
+                    & .cards__overlay--text{
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0.03em;
+                        text-align: center;
+                        color: #ffffff;
+                        width: 250px;
+                        padding: 24px 24px;
+                    }
+                }
+            }
+    
+            .cards__img--3{
+                position: relative;
+                background-image: url(../img/photo5.jpg);
+                background-repeat: no-repeat;
+                height: 294px;
+                overflow: hidden;
+                border-radius: 15px;
+                object-fit: cover;
 
+                & .cards__overlay{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    transform: translateY(100%);
+                    transition: transform 1500ms ease-in-out;
+                    background-color: #1E1823;
+    
+                    & .cards__overlay--text{
+                        font-family: Montserrat;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0.03em;
+                        text-align: center;
+                        color: #ffffff;
+                        width: 250px;
+                        padding: 24px 24px;
+                    }
+                }
+            }
 
-
-
-
-
-
-
+        }
+    }
 
 
 
