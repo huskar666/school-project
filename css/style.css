@@ -526,13 +526,13 @@ main .background .backround__container .background__container--box {
 }
 main .background .backround__container .background__container--box .background__container--box--text {
   font-family: Montserrat;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 500;
   line-height: 34px;
   letter-spacing: -0.03em;
   text-align: left;
-  color: white;
-  max-width: 484px;
+  color: #ffffff;
+  max-width: 414px;
 }
 main .background .backround__container .background__container--box .background__container--box--text1 {
   display: none;
