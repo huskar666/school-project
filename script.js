@@ -164,3 +164,6 @@ $(document).ready(function() {
     });
   });
 });
+function scrollToPart() {
+  document.getElementById('part1').scrollIntoView({ behavior: 'smooth' });
+}
